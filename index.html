@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grayth Official Website!</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 40px;
+        /* Gradient background: darker green to lighter green */
+        background: linear-gradient(to bottom, #2ecc40, #a8e6a3);
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        background-color: rgba(173, 230, 168, 0.8); /* light green with transparency */
+        padding: 30px 50px;
+        border-radius: 12px;
+        max-width: 600px;
+        color: #1a1a1a; /* dark text */
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      }
+      .green-button {
+        background-color: #28a745;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        font-size: 18px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 40px;
+        transition: background-color 0.3s ease;
+      }
+      .green-button:hover {
+        background-color: #218838;
+      }
+      #message {
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #1a1a1a;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Grayth Official Website!</h1>
+      <p>This website will have some cool stuff in the future.</p>
+
+      <button class="green-button" onclick="showMessage()">Next page &gt;&gt;&gt;</button>
+      <div id="message">🔨TO BE CONTINUED🔨</div>
+    </div>
+
+    <script>
+      function showMessage() {
+        document.getElementById("message").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
