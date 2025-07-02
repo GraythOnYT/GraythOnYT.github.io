@@ -37,13 +37,6 @@
       .green-button:hover {
         background-color: #218838;
       }
-      #message {
-        margin-top: 25px;
-        font-size: 20px;
-        font-weight: bold;
-        color: #1a1a1a;
-        display: none;
-      }
       footer {
         margin-top: 60px;
         font-size: 14px;
@@ -56,18 +49,14 @@
       <h1>Grayth Official Website!</h1>
       <p>This website will have some cool stuff in the future.</p>
 
-      <button class="green-button" onclick="showMessage()">Next page &gt;&gt;&gt;</button>
-      <div id="message">🔨TO BE CONTINUED🔨</div>
+      <!-- Updated Next Page Button -->
+      <a href="page2.html">
+        <button class="green-button">Next page &gt;&gt;&gt;</button>
+      </a>
     </div>
 
     <footer>
       © 2025 GraythOnYT | Made in Cursed HTML & GTI (Grayth Technological Industry)
     </footer>
-
-    <script>
-      function showMessage() {
-        document.getElementById("message").style.display = "block";
-      }
-    </script>
   </body>
 </html>
